@@ -1,0 +1,16 @@
+baseurl = "http://va2577.github.io/"
+languageCode = "en-us"
+title = "Yoshito Imai's Blog"
+
+disqusShortname = "qh7463"
+googleAnalytics = "UA-72506171-1"
+
+hasCJKLanguage = true
+
+[params]
+  twitter = "@rv1471"
+  about = "about/"
+  description = """\
+    技術的な記事を書き始めていますが、\
+    システムエンジニアが資格や肩書きがなくても生きていけるようになることについて書いていきます。\
+    システムエンジニアだからといってシステムを作ることだけが仕事じゃない。"""
