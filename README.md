@@ -1,4 +1,5 @@
 # mf0521-hugo
+
 Hugo’s content
 
 ## deploy
@@ -7,8 +8,8 @@ Hugo’s content
 
 ## server
 
-hugo server -t rz0372
+hugo server -t theme1
 
 ## build
 
-hugo -t rz0372
+hugo -t theme1

@@ -1,16 +1,16 @@
 $background-color-github: #f8f8f8;
-$background-color-strong: #ffffaa;
-$color: gray;
+$background-color-strong: #ffa; // #ffffaa
+$color: #808080; // gray
 $color-dark: darken($color, 10%);
-$color-em: orangered;
-$color-h: maroon;
+$color-em: #ff4500; // orangered
+$color-h: #800000; // maroon
 $color-github: #333;
 $color-light: lighten($color, 10%);
 $color-light2: lighten($color, 20%);
 $color-light3: lighten($color, 30%);
 $color-light4: lighten($color, 45%);
-$font-family-sans-serif: "TsukuARdGothic-Regular", "ヒラギノ丸ゴ ProN W4", "Hiragino Kaku Gothic ProN", YuGothic, "Yu Gothic", "游ゴシック体", "游ゴシック";
-$font-family-serif: "Klee", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", YuMincho, "Yu Mincho", "游明朝体", "游明朝";
+$font-family-sans-serif: 'TsukuARdGothic-Regular', 'ヒラギノ丸ゴ ProN W4', 'Hiragino Kaku Gothic ProN', YuGothic, 'Yu Gothic', '游ゴシック体', '游ゴシック';
+$font-family-serif: 'Klee', 'ヒラギノ明朝 ProN W3', 'Hiragino Mincho ProN', YuMincho, 'Yu Mincho', '游明朝体', '游明朝';
 $font-size: 16px;
 
 html {
@@ -21,11 +21,11 @@ html {
 body {
   color: $color;
   font-family: $font-family-serif;
-  letter-spacing: 0.1rem;
+  letter-spacing: .1rem;
   line-height: 1.5rem;
 }
 
-#wrapper {
+.wrapper {
   margin: 0 auto;
   width: 600px;
 }
@@ -33,13 +33,18 @@ body {
 header {
   display: table;
   font-family: $font-family-sans-serif;
-  margin: 1.0rem 0;
+  margin: 1rem 0;
+
+  a {
+    color: $color;
+    text-decoration: none;
+  }
 }
 
-header a {
-  color: $color;
-  text-decoration: none;
-}
+// header a {
+//   color: $color;
+//   text-decoration: none;
+// }
 
 .header-title-box {
   display: table-cell;
@@ -52,18 +57,18 @@ header a {
 }
 
 .logo {
-  border-radius: 3.0rem;
+  border-radius: 3rem;
   display: table-cell;
-  height: 3.0rem;
+  height: 3rem;
   margin: 0;
-  width: 3.0rem;
+  width: 3rem;
 }
 
 .header-title {
   display: table-cell;
-  height: 3.0rem;
-  font-size: 0.3rem;
-  line-height: 0.3rem;
+  font-size: .3rem;
+  height: 3rem;
+  line-height: .3rem;
   vertical-align: middle;
 }
 
@@ -83,14 +88,19 @@ footer {
   border-top-style: solid;
   border-top-width: 1px;
   font-family: $font-family-sans-serif;
-  margin: 1.0rem 0;
+  margin: 1rem 0;
   text-align: center;
+
+  a {
+    color: $color;
+    text-decoration: none;
+  }
 }
 
-footer a {
-  color: $color;
-  text-decoration: none;
-}
+// footer a {
+//   color: $color;
+//   text-decoration: none;
+// }
 
 h1,
 h2,
@@ -99,7 +109,7 @@ h4,
 h5,
 h6 {
   color: $color-h;
-  margin: 1.0rem 0;
+  margin: 1rem 0;
   text-align: center;
 }
 
@@ -109,8 +119,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.0rem;
-  line-height: 2.0rem;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 h3 {
@@ -134,8 +144,14 @@ h6 {
 }
 
 p {
-  margin: 1.0rem 0;
+  margin: 1rem 0;
   max-width: 100%;
+
+  code {
+    background-color: $background-color-github;
+    color: $color-github;
+    padding: 0 .5rem;
+  }
 }
 
 em {
@@ -151,40 +167,40 @@ strong {
 pre {
   background-color: $background-color-github;
   color: $color-github;
-  margin: 1.0rem 0;
+  margin: 1rem 0;
   overflow: auto;
-  padding: 0.5rem;
+  padding: .5rem;
 }
 
-p code {
-  background-color: $background-color-github;
-  color: $color-github;
-  padding: 0 0.5rem;
-}
+// p code {
+//   background-color: $background-color-github;
+//   color: $color-github;
+//   padding: 0 .5rem;
+// }
 
 ol,
 ul {
-  margin-left: 1.0rem;
+  margin-left: 1rem;
 }
 
 blockquote {
   background-color: $color-light4;
   border-left-color: $color-light2;
   border-left-style: solid;
-  border-left-width: 0.3rem;
-  margin: 1.0rem 0;
+  border-left-width: .3rem;
+  margin: 1rem 0;
   padding: 1.5rem;
 }
 
 article,
 section {
-  margin: 1.0rem 0;
+  margin: 1rem 0;
 }
 
 img {
   display: block;
   height: auto;
-  margin: 1.0rem auto;
+  margin: 1rem auto;
   max-width: 100%;
 }
 
@@ -204,61 +220,84 @@ iframe {
 }
 
 .article-box {
-  margin: 1.0rem 0;
+  margin: 1rem 0;
 }
 
 .article-title {
   font-size: 1.5rem;
   line-height: 1.5rem;
-  padding: 0.2rem 0;
+  padding: .2rem 0;
 }
 
 .article-meta {
   color: $color-light;
-  font-size: 0.5rem;
-  line-height: 0.5rem;
-  padding: 0.2rem 0;
+  font-size: .5rem;
+  line-height: .5rem;
+  padding: .2rem 0;
 }
 
 .pagination {
-  margin: 1.0rem 0;
+  margin: 1rem 0;
   text-align: center;
+
+  a,
+  span {
+    border-color: $color-dark;
+    border-style: solid;
+    border-width: 1px;
+    color: $color;
+    display: inline-block;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+  span {
+    background-color: $color-light4;
+  }
+
+  .current-page {
+    background-color: $color-light4;
+  }
 }
 
-.pagination a,
-.pagination span {
-  border-color: $color-dark;
-  border-style: solid;
-  border-width: 1px;
-  color: $color;
-  display: inline-block;
-  text-decoration: none;
-}
+// .pagination a,
+// .pagination span {
+//   border-color: $color-dark;
+//   border-style: solid;
+//   border-width: 1px;
+//   color: $color;
+//   display: inline-block;
+//   text-decoration: none;
+// }
+//
+// .pagination a,
+// .pagination span {
+//   padding: 1rem 1rem;
+// }
 
-.pagination a,
-.pagination span {
-  padding: 1.0rem 1.0rem;
-}
+// .pagination span {
+//   background-color: $color-light4;
+// }
 
-.pagination span {
-  background-color: $color-light4;
-}
+// .pagination .current-page {
+//   background-color: $color-light4;
+// }
 
 .adsense {
-  font-size: 1.0rem;
+  font-size: 1rem;
   height: auto;
-  line-height: 1.0rem;
-  margin: 1.0rem 0;
+  line-height: 1rem;
+  margin: 1rem 0;
   max-width: 100%;
 }
 
 @media all and (max-width: 599px) {
-  /*html {
-    font-size: 20px;
-    line-height: 20px;
-  }*/
+  // html {
+  //   font-size: 20px;
+  //   line-height: 20px;
+  // }
 
-  #wrapper {
+  .wrapper {
     margin: 0 2%;
     width: 96%;
   }

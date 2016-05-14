@@ -3,7 +3,7 @@
 <div>
   {{ $paginator := .Paginate (where .Data.Pages "Section" "ne" "") 10 }}
   {{ range $paginator.Pages }}
-    {{ .Render "list" }}
+    {{ .Render "li" }}
   {{ end }}
   {{ partial "adsense.html" . }}
   {{ partial "pagination.html" . }}

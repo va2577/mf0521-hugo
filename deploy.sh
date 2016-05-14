@@ -3,12 +3,12 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # css, js compile
-cd themes/rz0372
+cd themes/theme1
 gulp
 cd ../..
 
 # Build the project.
-hugo -t rz0372 # if using a theme, replace by `hugo -t <yourtheme>`
+hugo -t theme1 # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
