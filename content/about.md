@@ -8,9 +8,9 @@ title = "About"
 
 Yoshito Imai
 
-## Mail
+## Twitter
 
-{{% mail "e x 9 1 2 5 @ g m a i l . c o m" %}}
+[@rv1471 | Twitter](https://twitter.com/rv1471?lang=ja)
 
 ## Privacy Policy
 
