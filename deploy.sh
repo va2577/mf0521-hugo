@@ -2,6 +2,9 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# delete .DS_Store
+find . -name ".DS_Store" -delete
+
 # css, js compile
 cd themes/theme1
 gulp
