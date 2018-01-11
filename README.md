@@ -8,7 +8,7 @@ Hugo’s content
 
 ## server
 
-hugo server -t theme1
+hugo -t theme1 server
 
 ## build
 
