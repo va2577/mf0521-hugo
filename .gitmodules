@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/va2577/va2577.github.io.git
+	branch = master
