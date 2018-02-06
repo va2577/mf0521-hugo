@@ -9,7 +9,6 @@ hasCJKLanguage = true
 
 [params]
   twitter = "@rv1471"
-  about = "about/"
   description = """\
     技術的な記事を書き始めていますが、\
     システムエンジニアが資格や肩書きがなくても生きていけるようになることについて書いていきます。\
