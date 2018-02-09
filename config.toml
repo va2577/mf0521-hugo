@@ -7,6 +7,8 @@ title = "Yoshito Imai's Blog"
 
 hasCJKLanguage = true
 
+theme = "theme1"
+
 [params]
   twitter = "@rv1471"
   description = """\
