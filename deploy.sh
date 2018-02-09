@@ -7,11 +7,11 @@ find . -name ".DS_Store" -delete
 
 # css, js compile
 cd themes/theme1
-gulp
+npm run build
 cd ../..
 
 # Build the project.
-hugo -t theme1 # if using a theme, replace by `hugo -t <yourtheme>`
+hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
