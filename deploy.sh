@@ -6,9 +6,7 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 find . -name ".DS_Store" -delete
 
 # css, js compile
-cd themes/theme1
-npm run build
-cd ../..
+#(cd themes/theme1 && npm run build && cd ../..)
 
 # Build the project.
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
