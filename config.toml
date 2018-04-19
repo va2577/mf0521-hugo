@@ -1,19 +1,16 @@
 baseurl = "https://va2577.github.io/"
-languageCode = "en-us"
-title = "Yoshito Imai's Blog"
+languageCode = "ja-jp"
+title = "Espresso & Onigiri"
 
+defaultContentLanguage = "ja"
 # disqusShortname = "qh7463"
 # googleAnalytics = "UA-72506171-1"
-
 hasCJKLanguage = true
-
-theme = "theme1"
+paginate = 20
+sectionPagesMenu = "main"
+theme = "theme2"
+copyright = "&copy; 2015 Espresso & Onigiri"
 
 [params]
+  github = "va2577"
   twitter = "@rv1471"
-  description = """\
-    技術的な記事を書き始めていますが、\
-    システムエンジニアが資格や肩書きがなくても生きていけるようになることについて書いていきます。\
-    システムエンジニアだからといってシステムを作ることだけが仕事じゃない。"""
-  subtitle = """\
-    表面的な"現象"じゃなく、内面的な"本質"を大切に生きていく"""
