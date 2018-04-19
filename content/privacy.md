@@ -22,12 +22,3 @@ weight: 2
 * [必須コンテンツ - AdSense ヘルプ](https://support.google.com/adsense/answer/1348695)
 * [プライバシーポリシー ｜ 株式会社もしも](https://www.moshimo.co.jp/company/privacy)
 -->
-
-<!--
-このブログでは、第三者配信による広告サービスを利用して、ユーザー様が閲覧する他のサイト (AdSense 広告のあるサイト、 YouTube) の利用状況に応じて興味のある広告を配信しています。
-そのため、このブログや他のサイトへの[アクセスに関する情報](http://www.google.co.jp/policies/technologies/ads/)を使用することがあります。
-
-このブログや他のサイトへのアクセスに関する情報を使用されたくない場合は[広告設定](https://support.google.com/adsense/answer/113771)から設定を変更してください。
-
-詳しくは [Google のプライバシー ポリシー](http://www.google.com/intl/ja/privacy.html)をご覧ください。
--->
