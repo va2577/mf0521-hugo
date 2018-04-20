@@ -3,8 +3,8 @@ languageCode = "ja-jp"
 title = "Espresso & Onigiri"
 
 defaultContentLanguage = "ja"
-# disqusShortname = "qh7463"
-# googleAnalytics = "UA-72506171-1"
+#disqusShortname = "qh7463"
+#googleAnalytics = "UA-72506171-1"
 hasCJKLanguage = true
 paginate = 20
 sectionPagesMenu = "main"
@@ -12,8 +12,8 @@ theme = "theme2"
 copyright = "&copy; 2015 Espresso & Onigiri"
 
 [params]
-  github = "va2577"
-  twitter = "@rv1471"
   [params.adsense]
     client = "ca-pub-9305907051774965"
     slot = "2028899530"
+  github = "va2577"
+  twitter = "@rv1471"
