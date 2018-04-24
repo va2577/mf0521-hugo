@@ -8,7 +8,7 @@ defaultContentLanguage = "ja"
 hasCJKLanguage = true
 paginate = 20
 sectionPagesMenu = "main"
-theme = "theme2"
+theme = "an6474"
 copyright = "&copy; 2015 Espresso & Onigiri"
 
 [params]
