@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/va2577/va2577.github.io.git
 	branch = master
+[submodule "themes/an6474"]
+	path = themes/an6474
+	url = https://github.com/va2577/an6474.git
