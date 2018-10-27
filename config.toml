@@ -13,7 +13,7 @@ copyright = "&copy; 2015 Espresso & Onigiri"
 
 [params]
   github = "va2577"
-  twitter = "@rv1471"
+#  twitter = "@rv1471"
   [params.adsense]
     client = "ca-pub-9305907051774965"
     slot = "2028899530"
