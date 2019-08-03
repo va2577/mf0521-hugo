@@ -8,3 +8,6 @@
 [submodule "themes/wp3029"]
 	path = themes/wp3029
 	url = https://github.com/va2577/wp3029.git
+[submodule "themes/hugo-swift-theme"]
+	path = themes/hugo-swift-theme
+	url = https://github.com/onweru/hugo-swift-theme.git
