@@ -1,10 +1,13 @@
 {{ define "main" }}
   {{ $data := .Data }}
-    <section class="intro">
-      <div class="intro_inner">
-      <h1 class="intro_headline">{{ $data.Plural | humanize }}</h1>
-      <p class="intro_desc"></p>
-    </section>
+  <section class="intro">
+    <div class="intro_inner">
+    <h1 class="intro_headline">{{ $data.Plural | humanize }}</h1>
+    <p class="intro_desc"></p>
+  </section>
+  <div class="posts wrap">
+    {{ partial "adsense.html" . }}
+  </div>
   <ul class="posts wrap" id="posts">
     {{ range $key, $value := .Data.Terms.Alphabetical }}
       <li class="post_item" style="width: 100%;">
@@ -20,4 +23,7 @@
       </li>
     {{ end }}
   </ul>
+  <div class="posts wrap">
+    {{ partial "adsense.html" . }}
+  </div>
 {{ end }}
