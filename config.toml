@@ -21,6 +21,8 @@ pygmentsStyle = "friendly"
 [params]
   github = "va2577"
 #  twitter = "@rv1471"
+  image = "logo.png"
+  logo = "logo.png"
   [params.adsense]
     client = "ca-pub-9305907051774965"
     slot = "2028899530"
