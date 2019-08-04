@@ -10,6 +10,13 @@ paginate = 30
 sectionPagesMenu = "main"
 theme = "hugo-swift-theme"
 copyright = "&copy; 2015 Espresso & Onigiri"
+canonifyurls = true
+
+# Enable syntax highlighting
+# comment on delete the following lines 11 ~ 13
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "friendly"
 
 [params]
   github = "va2577"
