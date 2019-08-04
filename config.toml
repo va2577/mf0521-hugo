@@ -6,9 +6,9 @@ defaultContentLanguage = "ja"
 #disqusShortname = "qh7463"
 #googleAnalytics = "UA-72506171-1"
 hasCJKLanguage = true
-paginate = 20
+paginate = 30
 sectionPagesMenu = "main"
-theme = "an6474"
+theme = "hugo-swift-theme"
 copyright = "&copy; 2015 Espresso & Onigiri"
 
 [params]

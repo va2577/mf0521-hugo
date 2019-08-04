@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ $data := .Data }}
+    <section class="intro">
+      <div class="intro_inner">
+      <h1 class="intro_headline">{{ $data.Plural | humanize }}</h1>
+      <p class="intro_desc"></p>
+    </section>
+  <ul class="posts wrap" id="posts">
+    {{ range $key, $value := .Data.Terms.Alphabetical }}
+      <li class="post_item" style="width: 100%;">
+        <a class="show" style="height: 20px;"></a>
+        <div class="excerpt">
+          <p class="post_tag">
+            <a href="{{ "/" | relURL }}{{ $data.Plural | urlize }}/{{ $value.Name | urlize }}/">{{ $value.Name | humanize }}</a>
+            ({{ $value.Count }})
+          </p>
+          <h3 class="post_link"></h3>
+          <p class="pale"></p>
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
